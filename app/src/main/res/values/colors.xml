@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_green">#4ADE80</color>
+    <color name="status_yellow">#FACC15</color>
+    <color name="flash_highlight">#DBEAFE</color>
+    <color name="warning_bg">#FEF3C7</color>
+    <color name="warning_text">#92400E</color>
+</resources>

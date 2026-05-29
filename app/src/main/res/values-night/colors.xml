@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="flash_highlight">#1E3A5F</color>
+    <color name="warning_bg">#78350F</color>
+    <color name="warning_text">#FDE68A</color>
+</resources>

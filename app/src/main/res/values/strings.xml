@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GestureControlApp</string>
+
+    <!-- Status bar -->
+    <string name="status_media_connected">Serviciu activ · Media conectat</string>
+    <string name="status_media_disconnected">Serviciu activ · Media deconectat</string>
+    <string name="status_checking">Serviciu activ · Se verifică…</string>
+
+    <!-- Developer mode easter egg -->
+    <string name="dev_mode_unlocked">🛠 Developer Mode Deblocat!</string>
+    <string name="dev_mode_hidden">Developer Mode Ascuns</string>
+    <string name="dev_mode_hint">Mai apasă de %d ori</string>
+
+    <!-- Permission banner -->
+    <string name="permission_warning_title">⚠ Permisiune lipsă</string>
+    <string name="permission_warning_body">Controlul media necesită acces la notificări</string>
+    <string name="permission_fix_button">Activează</string>
+
+    <!-- Header -->
+    <string name="app_header_title">Gesture Control</string>
+    <string name="app_header_subtitle">Sistem inteligent de automatizare prin senzori</string>
+
+    <!-- Card labels -->
+    <string name="gesture_wave_title">Magic Wave</string>
+    <string name="gesture_wave_desc">Trece mâna rapid peste ecran</string>
+    <string name="gesture_hover_title">Hover &amp; Hold</string>
+    <string name="gesture_hover_desc">Ține mâna nemișcată 1.5s</string>
+    <string name="gesture_tap_title">Back-Tap</string>
+    <string name="gesture_tap_desc">Bate de 2 ori pe spate</string>
+    <string name="gesture_flip_title">Flip to Shush</string>
+    <string name="gesture_flip_desc">Întoarce cu fața în jos</string>
+
+    <!-- Shared UI -->
+    <string name="action_label">Acțiune:</string>
+    <string name="section_gestures">MODULE GESTURI</string>
+    <string name="console_title">CONSOLE // LIVE_DIAGNOSTICS</string>
+    <string name="console_history_title">GESTURE_HISTORY</string>
+    <string name="console_no_gestures">Niciun gest detectat încă</string>
+
+    <string name="notif_title">Gesture Control Activ</string>
+    <string name="notif_body">Baterie optimizată. Rulare în fundal.</string>
+</resources>
