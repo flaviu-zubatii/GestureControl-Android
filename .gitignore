@@ -13,3 +13,17 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Signing
+*.jks
+*.keystore
+signing.properties
+
+# Secrets
+.env
+*.env.*
+secrets.properties
+
+# APK / AAB
+*.apk
+*.aab
