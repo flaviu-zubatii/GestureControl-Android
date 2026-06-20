@@ -1,4 +1,16 @@
-# Gesture Control Daemon (Android)
+<div align="center">
+
+# 📱 Gesture Control Daemon
+
+**Serviciu Android hands-free avansat — controlează telefonul prin gesturi, fără a atinge ecranul.**
+
+[![Android](https://img.shields.io/badge/Android-8.0+-3DDC84?logo=android&logoColor=white)](https://developer.android.com)
+[![Java](https://img.shields.io/badge/Java-100%25-F89820?logo=openjdk&logoColor=white)](https://openjdk.org)
+[![API](https://img.shields.io/badge/Target-API%2036-blue)](https://developer.android.com/about/versions/14)
+
+</div>
+
+---
 
 An advanced, battery-optimized Android background service that leverages raw hardware sensors and Digital Signal Processing (DSP) to control device features completely hands-free. Built specifically with Android 14+ strict background execution limits in mind.
 
@@ -17,6 +29,28 @@ An advanced, battery-optimized Android background service that leverages raw har
 *   **Native Media Control:** Implements `NotificationListenerService` and `MediaSessionManager` to route universal transport controls (Play/Pause/Next/Prev) directly to the active media player (Spotify, YouTube, etc.) via IPC.
 *   **Developer Terminal (Easter Egg):** 7 consecutive taps on the UI header unlocks a live diagnostic terminal displaying raw sensor `lux`, `m/s²`, and DSP variance streams at 5Hz.
 
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/flaviu-zubatii/GestureControl-Android.git
+```
+
+1. Open the project in **Android Studio**
+2. Sync Gradle and build
+3. Install on a device with **Android 8.0+**
+4. Grant the required permissions:
+   - **Accessibility Service** — Settings → Accessibility → Gesture Control
+   - **Notification Access** — Settings → Apps → Special Access → Notification Access
+
 ## 📋 Requirements
+
 *   Android 8.0 (API 26) Minimum / Optimized for Android 14 (API 34)
-*   Permissions Required: `FOREGROUND_SERVICE_SPECIAL_USE`, `BIND_ACCESSIBILITY_SERVICE`, `NOTIFICATION_ACCESS`.
+*   Permissions: `FOREGROUND_SERVICE_SPECIAL_USE`, `BIND_ACCESSIBILITY_SERVICE`, `NOTIFICATION_ACCESS`
+
+---
+
+## 👤 Autor
+
+**Zubatîi Flaviu** — Universitatea de Vest din Timișoara
